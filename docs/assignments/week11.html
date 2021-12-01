@@ -1,0 +1,88 @@
+<html>
+<head>
+<style>
+.div_relative {
+  position: relative;
+  border: 1px solid red;
+  top: 20px;
+  left: 20px;
+  width: 1200px;
+  height: 200px;
+  background-color: cyan;
+}
+
+.div_absolute {
+  position: absolute;
+  border: 1px solid red;
+  top: 30px;
+  right: 0px;
+  height: 100px;
+  background-color: green;
+}
+
+#div_fixed_2 {
+  position: fixed;
+  border: 1px solid blue;
+  background-color: rgba(255,200,200,0.5);  
+  width: 300px;
+  height: 200px;
+  bottom: 30%;
+  left: 50%;
+}
+
+.div_sticky_1 {
+  position: sticky;
+  border: 1px solid red;
+  top: 10px;
+  background-color: white;
+  width: 90%;
+  margin: auto;
+}
+</style>
+</head>
+<body>
+
+<div class="div_relative">The div_relative class element has position: absolute, and will remain in the natural flow of the page
+	<div class="div_absolute">
+		<p>The div_absolute class element has position: absolute, and will <u>NOT</u> remain in the natural flow of the page.</p>
+	</div>
+</div>
+
+<div id="div_fixed_2"><p>The <b>div_fixed_2</b> element has position: fixed, and will NOT remain in the natural flow of the page.
+It will position itself according to the viewport.
+It will also act as anchor point for the absolutely positioned div_absolute element:</p>
+position: fixed, bottom: 0, left: 0, right: 0.
+  
+</div>
+<div class="div_sticky_1">
+	<p>A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).</p>
+</div>
+
+<hr>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p><p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p><p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+<p>scrool the page to seethe effect of sticky position</p>
+</body>
+</html>
