@@ -1,0 +1,66 @@
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px darkgray;
+  margin: 10px;
+  flex-wrap: wrap;
+  height: 200px;
+}
+.flex-container-wrap {
+  flex-wrap: wrap;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+.align-items-center {align-items: center;}
+.justify-flex-end
+{
+justify-content: flex-end;
+}
+</style>
+<body>
+<h1>Flex Container wrap</h1>
+<div class="flex-container flex-container-nowrap">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div> 
+  <div>8</div> 
+  <div>9</div> 
+  <div>10</div>
+  <div>11</div> 
+  <div>12</div> 
+  <div>13</div> 
+  <div>14</div> 
+</div>
+<h2>center</h2>
+<div class="flex-container align-items-center">
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+	<div>4</div>  
+	<div>5</div>  
+	<div>6</div>  
+</div>
+<h1>flex-end</h1>
+<div class="flex-container justify-flex-end">
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+	<div>4</div>  
+	<div>5</div>  
+	<div>6</div>  
+</div>
+</body>
+</html>
